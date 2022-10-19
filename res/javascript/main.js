@@ -19,7 +19,7 @@ clickUpgrade.onclick = () => {
     if(cookies >= clickIncreasePrice){
     cookies -= clickIncreasePrice;
     clickIncreasePrice += 100;
-    clickUpgrade.innerHTML = `Buy Upgrades: ${clickIncreasePrice}`;
+    clickUpgrade.innerHTML = `Buy Upgrade: ${clickIncreasePrice}`;
     counter.innerHTML = cookies;
     clickIncrease++;
     }
