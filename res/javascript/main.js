@@ -37,7 +37,7 @@ autoclickerUpgrade.onclick = () => {
         setInterval(() => {
             cookies += autoclickerIncrease; //zvedne o jednu
             counter.innerHTML = cookies;
-        }, 0.1); // opakovani kazdou sekundu
+        }, 1000); // opakovani kazdou sekundu
     }
     autoclickerIncrease++;
 }
