@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+#cookie {
+    max-width: 240px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#counter {
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Bungee Spice', cursive;
+}
+#clickUpgrade{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-size: 20pt;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+#autoclickerUpgrade{
+    background-color: purple;
+    color: white;
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+#tanec1{
+float: right;
+}
+
+body{
+    background: url("../img/background.png");
+    background-size: cover;
+}
